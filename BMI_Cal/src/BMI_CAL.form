@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="BMI_CAL">
+  <grid id="27dc6" binding="pnlBMI" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="b5487" class="javax.swing.JLabel" binding="lbl1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Select the Input Type"/>
+        </properties>
+      </component>
+      <component id="ca5cc" class="javax.swing.JLabel" binding="lblweight">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Input your weight"/>
+        </properties>
+      </component>
+      <component id="29da1" class="javax.swing.JComboBox" binding="cmbType">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="KG/m"/>
+            <item value="pounds/inches"/>
+          </model>
+        </properties>
+      </component>
+      <component id="eb0ed" class="javax.swing.JTextField" binding="txtweight">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ecebc" class="javax.swing.JLabel" binding="lbl3">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Input your height"/>
+        </properties>
+      </component>
+      <component id="e491b" class="javax.swing.JTextField" binding="txtheight">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="db072" class="javax.swing.JButton" binding="btnCal">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Calculate "/>
+        </properties>
+      </component>
+      <component id="edb96" class="javax.swing.JButton" binding="btnClr">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Clear"/>
+        </properties>
+      </component>
+      <component id="c8e9c" class="javax.swing.JLabel" binding="lbl4">
+        <constraints>
+          <grid row="4" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="&lt;html&gt;&#10;&lt;b&gt;&lt;u&gt; BMI VALUES &lt;/b&gt;&lt;/u&gt;&lt;br&gt;&#10;&lt;ul&gt; &#10;&lt;li&gt; Underweight : Less than 18.5 &lt;/li&gt;&lt;br&gt;&#10;&lt;li&gt; Normal      : Between 18.5 - 24.9&lt;/li&gt;&lt;br&gt;&#10;&lt;li&gt; Overweight  : Between 25 - 29.9 &lt;/li&gt;&lt;br&gt;&#10;&lt;li&gt; Obese       : 30 or Greater &lt;/li&gt;&lt;br&gt;&#10;&lt;/ul&gt;&#10;&lt;/html&gt;&#10;"/>
+        </properties>
+      </component>
+      <component id="59f5d" class="javax.swing.JLabel" binding="lblfinalbmi">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="879ef" class="javax.swing.JLabel" binding="lbl5">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="&lt;html&gt;&#10;&lt;center&gt;Your BMI is &lt;/center&gt;&#10;&lt;/html&gt;&#10;&#10;"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
